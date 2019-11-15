@@ -1,0 +1,9 @@
+language: node_js
+
+install: skip
+script: skip
+
+deploy:
+  - provider: azure_web_apps
+    verbose: true
+    skip_cleanup: true
